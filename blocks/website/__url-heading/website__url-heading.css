@@ -1,0 +1,36 @@
+.website__url-heading {
+  font-size: 12px;
+  line-height: 20.4px; 
+  font-weight: 400;
+  letter-spacing: 2px; 
+  color: rgba(170, 170, 170, 1);
+  margin: 0;
+  padding: 0;
+  align-self: end; 
+}
+
+@media screen and (min-width: 1280px) {
+  .website__url-heading {
+    max-width: 460px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+  .website__url-heading {
+    max-width: 440px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .website__url-heading {
+    max-width: 340px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .website__url-heading {
+    line-height: 12px; 
+    font-weight: 400;
+    margin: 32px 0px 0px 16px;
+    align-self: start;
+  }
+}

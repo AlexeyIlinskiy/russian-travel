@@ -1,0 +1,23 @@
+.website__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+  padding: 0;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  margin-top: 12px;
+  align-self: center;
+}
+
+.website__link:hover {
+  color: rgba(255, 255, 255, .8);
+}
+
+@media screen and (max-width: 767.98px) {
+  .website__link {
+    align-self: start;
+    margin: 12px 0px 0px 16px;
+  }
+}

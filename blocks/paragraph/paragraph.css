@@ -1,0 +1,32 @@
+  .paragraph {
+    display: grid;
+    gap: 25px;
+    margin: 48px 0px;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+  }
+
+  @media screen and (min-width: 1280px) {
+    .website__url-heading {
+      max-width: 484px;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+    .website__url-heading {
+      max-width: 456px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .website__url-heading {
+      max-width: 352px;
+      line-height: 12px;
+    }
+  }
+
+
+  @media screen and (max-width: 767.98px) {
+    .paragraph {
+      min-width: 288px;
+      margin: 32px 0px 0px 16px;
+    }
+    
+  }

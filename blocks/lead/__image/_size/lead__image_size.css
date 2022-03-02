@@ -1,0 +1,25 @@
+.lead__image_size {
+  width: 100%
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image_size {
+    max-width: 984px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+  .lead__image_size {
+    max-width: 928px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .lead__image_size {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .lead__image_size {
+    max-width: 320px;
+  }
+}
