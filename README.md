@@ -4,7 +4,7 @@
 ---
 ### Описание проекта
 * Адаптивный, одностраничный сайт о путешествиях по России
-* [Ссылка на проект в GitHub](https://github.com/AlexeyIlinskiy/russian-travel)
+* [Ссылка на проект](https://alexeyilinskiy.github.io/russian-travel/index.html "Путешествия по России")
 
 
 ---
